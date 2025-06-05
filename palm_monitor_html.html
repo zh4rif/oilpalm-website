@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palm Monitor - Geospatial Intelligence Platform</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="header">
+        <div class="logo" style="display: flex; align-items: center; gap: 10px;">
+            <img src="https://images.squarespace-cdn.com/content/v1/604db3a6dad32a12b2415387/1636475927545-PK57PVLIB7AEKX1AJQJ8/Logo_MSPO_2020.png" alt="MSPO Logo" style="height: 60px;">
+            <div style="align-items: center;">
+                <span style="font-weight: bold; ">MSPO-Palm Monitor</span><br>
+                <span style="font-size: 12px; opacity: 0.7;">Powered by Uzma Digital Earth</span>
+            </div>
+        </div>
+        
+        <div class="user-info">
+            <div class="status-indicator">
+                <div class="status-dot"></div>
+                <span>Live Monitoring</span>
+            </div>
+            
+            <i class="fas fa-user-circle" style="font-size: 24px;"></i>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="sidebar">
+            <div class="tool-group">
+                <h3><i class="fas fa-satellite"></i> Imagery</h3>
+                <button class="tool-btn active" onclick="toggleLayer('satellite')">
+                    <i class="fas fa-globe"></i> High-Res Satellite
+                </button>
+                <button class="tool-btn" onclick="toggleLayer('terrain')">
+                    <i class="fas fa-mountain"></i> Topographic Data
+                </button>
+                <button class="tool-btn" onclick="toggleLayer('ndvi')">
+                    <i class="fas fa-seedling"></i> NDVI Analysis
+                </button>
+                <button class="tool-btn" onclick="requestNewImagery()">
+                    <i class="fas fa-refresh"></i> Request Update
+                </button>
+            </div>
+
+            <div class="tool-group">
+                <h3><i class="fas fa-draw-polygon"></i> Mapping Tools</h3>
+                <button class="tool-btn" onclick="activateDrawing('polygon')">
+                    <i class="fas fa-vector-square"></i> Draw Polygon
+                </button>
+                <button class="tool-btn" onclick="activateDrawing('rectangle')">
+                    <i class="fas fa-square"></i> Rectangle Tool
+                </button>
+                <button class="tool-btn" onclick="activateDrawing('circle')">
+                    <i class="fas fa-circle"></i> Circle Tool
+                </button>
+                <button class="tool-btn" onclick="autoDetectPolygons()">
+                    <i class="fas fa-magic"></i> Auto-Detect
+                </button>
+            </div>
+
+            <div class="tool-group">
+                <h3><i class="fas fa-chart-line"></i> Analysis</h3>
+                <button class="tool-btn" onclick="runSpatialAnalysis()">
+                    <i class="fas fa-calculator"></i> Spatial Analysis
+                </button>
+                <button class="tool-btn" onclick="generateReport()">
+                    <i class="fas fa-file-alt"></i> Generate Report
+                </button>
+                <button class="tool-btn" onclick="trendAnalysis()">
+                    <i class="fas fa-trending-up"></i> Trend Analysis
+                </button>
+            </div>
+
+            <div class="layer-control">
+                <h4>Layer Control</h4>
+                <div class="layer-item">
+                    <label>
+                        <input type="checkbox" checked onchange="toggleLayer('base')"> Base Map
+                    </label>
+                    <input type="range" class="opacity-slider" min="0" max="100" value="100" onchange="setOpacity('base', this.value)">
+                </div>
+                <div class="layer-item">
+                    <label>
+                        <input type="checkbox" checked onchange="toggleLayer('satellite')"> Satellite
+                    </label>
+                    <input type="range" class="opacity-slider" min="0" max="100" value="80" onchange="setOpacity('satellite', this.value)">
+                </div>
+                <div class="layer-item">
+                    <label>
+                        <input type="checkbox" onchange="toggleLayer('clouds')"> Cloud Mask
+                    </label>
+                    <input type="range" class="opacity-slider" min="0" max="100" value="60" onchange="setOpacity('clouds', this.value)">
+                </div>
+                <div class="layer-item">
+                    <label>
+                        <input type="checkbox" onchange="toggleLayer('polygons')"> Polygons
+                    </label>
+                    <input type="range" class="opacity-slider" min="0" max="100" value="90" onchange="setOpacity('polygons', this.value)">
+                </div>
+            </div>
+        </div>
+
+        <div class="map-container">
+            <div id="map"></div>
+            
+            <div class="map-controls">
+                <button class="control-btn" onclick="fullScreen()" title="Fullscreen">
+                    <i class="fas fa-expand"></i>
+                </button>
+                <button class="control-btn" onclick="resetView()" title="Reset View">
+                    <i class="fas fa-home"></i>
+                </button>
+                <button class="control-btn" onclick="measureDistance()" title="Measure">
+                    <i class="fas fa-ruler"></i>
+                </button>
+                <button class="control-btn" onclick="takeScreenshot()" title="Screenshot">
+                    <i class="fas fa-camera"></i>
+                </button>
+            </div>
+
+            <div class="drawing-toolbar">
+                <button class="draw-btn" onclick="activateDrawing('marker')">
+                    <i class="fas fa-map-marker-alt"></i> Point
+                </button>
+                <button class="draw-btn" onclick="activateDrawing('polyline')">
+                    <i class="fas fa-route"></i> Line
+                </button>
+                <button class="draw-btn" onclick="activateDrawing('polygon')">
+                    <i class="fas fa-draw-polygon"></i> Polygon
+                </button>
+                <button class="draw-btn" onclick="clearDrawings()">
+                    <i class="fas fa-trash"></i> Clear
+                </button>
+            </div>
+        </div>
+
+        <div class="analytics-panel">
+            <div class="panel-section">
+                <h4>Real-Time Metrics</h4>
+                <div class="metric-card">
+                    <div class="metric-value">2,847</div>
+                    <div class="metric-label">Active Polygons</div>
+                </div>
+                <div class="metric-card" style="background: linear-gradient(135deg,  #228B22 0%, #A1B593 100%);">
+                    <div class="metric-value">94.2%</div>
+                    <div class="metric-label">Healthy Coverage</div>
+                </div>
+                <div class="metric-card" style="background: linear-gradient(135deg,  #228B22 0%, #A1B593 100%);">
+                    <div class="metric-value">1.2GB</div>
+                    <div class="metric-label">Data Processed Today</div>
+                </div>
+            </div>
+
+            <div class="panel-section">
+                <h4>Active Alerts</h4>
+                <div class="alert-item">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <div>
+                        <div style="font-weight: bold;">Disease Detection</div>
+                        <div style="font-size: 12px;">Sector 7A - Block 23</div>
+                    </div>
+                </div>
+                <div class="alert-item" style="background: linear-gradient(135deg,  #228B22 0%, #A1B593 100%);">
+                    <i class="fas fa-cloud-rain"></i>
+                    <div>
+                        <div style="font-weight: bold;">Weather Warning</div>
+                        <div style="font-size: 12px;">Heavy rain predicted</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-section">
+                <h4>Weather Forecast</h4>
+                <div class="weather-widget">
+                    <i class="fas fa-cloud-sun" style="font-size: 24px;"></i>
+                    <div class="weather-temp">28°C</div>
+                    <div>Partly Cloudy</div>
+                    <div style="font-size: 12px; margin-top: 8px;">Humidity: 78% | Wind: 12 km/h</div>
+                </div>
+            </div>
+
+            <div class="panel-section">
+                <h4>Selected Polygon</h4>
+                <div class="polygon-info">
+                    <div class="info-row">
+                        <span>Area:</span>
+                        <span>234.5 Ha</span>
+                    </div>
+                    <div class="info-row">
+                        <span>NDVI Avg:</span>
+                        <span>0.67</span>
+                    </div>
+                    <div class="info-row">
+                        <span>Tree Count:</span>
+                        <span>~14,670</span>
+                    </div>
+                    <div class="info-row">
+                        <span>Health Score:</span>
+                        <span style="color: #3a923d; font-weight: bold;">Good</span>
+                    </div>
+                    <div class="info-row">
+                        <span>Last Updated:</span>
+                        <span>2 hours ago</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-section">
+                <h4>Performance Chart</h4>
+                <div class="chart-container">
+                    <canvas id="trendChart" width="280" height="150"></canvas>
+                </div>
+            </div>
+
+            <div class="panel-section">
+                <h4>Data Export</h4>
+                <div class="export-section">
+                    <button class="export-btn" onclick="exportData('geojson')">
+                        <i class="fas fa-download"></i> Export GeoJSON
+                    </button>
+                    <button class="export-btn" onclick="exportData('shapefile')">
+                        <i class="fas fa-download"></i> Export Shapefile
+                    </button>
+                    <button class="export-btn" onclick="exportData('csv')">
+                        <i class="fas fa-download"></i> Export CSV
+                    </button>
+                    <button class="export-btn" onclick="exportData('report')">
+                        <i class="fas fa-file-pdf"></i> Generate Report
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+        <div class="spinner"></div>
+        <span>Processing satellite data...</span>
+    </div>
+
+    <div id="notification" class="notification">
+        <i class="fas fa-check-circle"></i> <span id="notificationText"></span>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
