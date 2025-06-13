@@ -13,9 +13,9 @@ body {
 
 /* Header Styles */
 .header {
-    background: #D9E1D3;
+    background: #619b35;
     backdrop-filter: blur(10px);
-    color: rgb(126, 194, 70);
+    color: rgb(86, 138, 44);
     padding: 10px 25px;
     display: flex;
     justify-content: space-between;
