@@ -78,7 +78,7 @@ body {
 
 /* Sidebar Styles */
 .sidebar {
-    background: #A1B593;
+    background: #ffffff;
     backdrop-filter: blur(15px);
     border-right: 1px solid rgba(0,0,0,0.1);
     padding: 20px;
