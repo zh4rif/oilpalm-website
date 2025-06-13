@@ -70,12 +70,15 @@ body {
 
 /* Main Layout */
 .main-container {
-    display: grid;
+        display: grid;
     grid-template-columns: 300px 1fr 350px;
     height: calc(100vh - 80px);
     gap: 0;
+    transition: grid-template-columns 0.3s;
 }
-
+.main-container.panel-minimized {
+    grid-template-columns: 300px 1fr 40px !important;
+}
 /* Sidebar Styles */
 .sidebar {
     background: #ffffff;
@@ -205,8 +208,61 @@ body {
     padding: 20px;
     overflow-y: auto;
     box-shadow: -4px 0 20px rgba(0,0,0,0.1);
+     position: relative;
+    transition: width 0.3s, min-width 0.3s;
+
+}
+.panel-toggle-btn {
+    position: absolute;
+    left: -18px;
+    top: 20px;
+    width: 32px;
+    height: 32px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
 }
 
+.panel-toggle-btn:hover {
+    background: #388e3c;
+}
+
+.analytics-panel.minimized {
+    width: 40px !important;
+    min-width: 40px !important;
+    padding: 20px 5px 20px 5px !important;
+    overflow: hidden;
+}
+
+.analytics-panel.minimized .panel-section,
+.analytics-panel.minimized .export-section,
+.analytics-panel.minimized .polygon-info,
+.analytics-panel.minimized .metric-card,
+.analytics-panel.minimized .alert-item,
+.analytics-panel.minimized .weather-widget,
+.analytics-panel.minimized .chart-container,
+.analytics-panel.minimized h4 {
+    display: none !important;
+}
+
+.analytics-panel.minimized .panel-toggle-btn {
+    left: 0;
+}
+
+@media (max-width: 1200px) {
+    .analytics-panel.minimized {
+        width: 32px !important;
+        min-width: 32px !important;
+    }
+}
 .panel-section {
     margin-bottom: 25px;
 }

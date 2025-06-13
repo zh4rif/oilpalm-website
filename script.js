@@ -723,3 +723,21 @@ showNotification('No polygon to delete');
 function generatePDFReport() {
     showNotification('PDF report generated');
 }
+
+function toggleAnalyticsPanel() {
+    const panel = document.getElementById('analyticsPanel');
+    const icon = document.getElementById('panelToggleIcon');
+    const mainContainer = document.querySelector('.main-container');
+    panel.classList.toggle('minimized');
+    if (panel.classList.contains('minimized')) {
+        icon.classList.remove('fa-chevron-right');
+        icon.classList.add('fa-chevron-left');
+        icon.title = "Expand Panel";
+        mainContainer.classList.add('panel-minimized');
+    } else {
+        icon.classList.remove('fa-chevron-left');
+        icon.classList.add('fa-chevron-right');
+        icon.title = "Minimize Panel";
+        mainContainer.classList.remove('panel-minimized');
+    }
+}
