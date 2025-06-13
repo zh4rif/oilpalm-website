@@ -13,9 +13,9 @@ body {
 
 /* Header Styles */
 .header {
-    background: #619b35;
+    background: #006838;
     backdrop-filter: blur(10px);
-    color: rgb(86, 138, 44);
+    color: white;
     padding: 10px 25px;
     display: flex;
     justify-content: space-between;
@@ -103,7 +103,7 @@ body {
     padding: 12px 15px;
     margin: 5px 0;
     border: none;
-    background: linear-gradient(135deg, #228B22 0%, #A1B593 100%);
+    background: linear-gradient(135deg, #006838 0%, #A1B593 100%);
     color: white;
     border-radius: 8px;
     cursor: pointer;
