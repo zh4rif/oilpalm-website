@@ -70,14 +70,14 @@ body {
 
 /* Main Layout */
 .main-container {
-        display: grid;
+    display: grid;
     grid-template-columns: 300px 1fr 350px;
     height: calc(100vh - 80px);
     gap: 0;
     transition: grid-template-columns 0.3s;
 }
 .main-container.panel-minimized {
-    grid-template-columns: 300px 1fr 40px !important;
+    grid-template-columns: 300px 1fr 0px !important;
 }
 /* Sidebar Styles */
 .sidebar {
