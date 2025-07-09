@@ -1,0 +1,4809 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="web" id="web">
+	<SimpleField name="Score" type="float"></SimpleField>
+</Schema>
+<Folder><name>web</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.94728005000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574527718307,5.68556120528029</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.94340310000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574103637168,5.68563922791077</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.93305870000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574567372363,5.68437419667959</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.92061865000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574457860068,5.68559982880778</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.90403190000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575687517199,5.68464469268367</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.90377140000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574784159683,5.68442108139122</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.90050530000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575482684299,5.68484419876237</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.89625440000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574495023904,5.68432691797691</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.89558380000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574606849827,5.6856129869549</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.89431240000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575419104924,5.68470194428401</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.89403856000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57400166286,5.68465607396217</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.88927770000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574606622419,5.68552933935779</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.88510025000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57406724691,5.68470563193363</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.88507750000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574576178581,5.6842927852024</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.88040890000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574319761337,5.68544195208633</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.88030756000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575081855793,5.68434340335123</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.87858940000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574135063257,5.68474614075464</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.87717020000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574039658603,5.68535002469216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.87198180000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57410115297,5.68555558644816</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.87099934000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575906567609,5.68469383150448</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.86528180000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574545349138,5.68540516455863</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.86459170000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574313611398,5.68567030591788</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.86431220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57457596352,5.68421365909226</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.86038446000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573229482042,5.68536579799879</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.85984504000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.5741798052,5.68543102997772</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.85497690000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574641738033,5.68433330012324</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.85162413000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574043957296,5.68527088625597</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.84972930000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574646472968,5.68441467466517</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.84893840000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573967322312,5.68530726743984</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.84881353000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574111767575,5.68530913431466</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.84734654000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574534286079,5.68548658219461</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.84690750000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574107475036,5.68539053349518</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.84628093000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574330836717,5.68536505593861</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.84469720000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574641516817,5.68425191326977</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.84411610000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574066411469,5.68439817040462</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.84068740000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573899745477,5.68535492773455</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.84044890000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574930419008,5.68426016828138</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.84013754000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57597936519,5.68490614432816</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.83585070000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574279735698,5.68483165523868</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.83534503000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574390258681,5.68563844617337</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.83523780000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574205320783,5.68485446580162</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.83332264000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574539242307,5.68564934358967</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.83292390000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574712038584,5.68445745031851</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.83118070000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574013663723,5.68575025067661</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.82953930000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574117874623,5.68506495523646</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.82891300000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574897997275,5.68561671414653</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.82142115000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575050812182,5.68537665637549</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.82102716000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574122173315,5.68498581680249</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.81751690000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573419807729,5.68564109242648</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.81506670000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573498705811,5.68560696588863</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.81250510000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573100183911,5.68512424861303</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.81226790000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57427821204,5.68427099015496</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.81188226000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574029019395,5.68558743384672</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.81144595000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573435182002,5.68548505780786</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.80935180000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57344152883,5.6853290477981</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.80908940000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574251699107,5.68531101346322</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.80711760000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.572969617463,5.68524668569493</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.80684570000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574457638828,5.68551844195065</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.80599236000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.5755502855,5.68480558131362</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.80585176000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573424530272,5.68571794552519</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.80534786000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575330091028,5.68516564338759</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.80513870000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575395626029,5.68519711519946</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.80235577000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575482198552,5.68466559990933</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.80180585000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.572949539,5.68533264945708</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.80000630000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574190204741,5.6851054517292</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.79838204000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574272504323,5.68466211773039</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.79835093000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573408941045,5.68579485399442</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.79731380000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573170072937,5.68509692897751</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.79528500000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574264588964,5.6850713374279</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.79521840000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574170980517,5.68550565922696</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.79289160000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574546094218,5.6848490148942</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.79224765000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574069706494,5.68478023041505</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.79175700000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574425184221,5.68437232369988</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.79039633000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574221913482,5.68431635893144</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.78976613000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574548793534,5.68501178244912</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.78932786000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.572964287219,5.68494601855123</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.78893983000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573914394767,5.68493212503335</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.78862690000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574477526541,5.68536239507003</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.78708290000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573099938321,5.68503381871101</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.78601336000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57409933235,5.68571610559852</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.78403765000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574972356898,5.68557355676605</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.78321850000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574825187597,5.68539987961504</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.78108966000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573498926921,5.68568835278319</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.78052230000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573728856682,5.68558825231795</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.77902937000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573924604111,5.68453646359797</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.77504580000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574033103049,5.68542916928278</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.77457020000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573997376427,5.68473973389319</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.77203405000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573969478793,5.68610078948039</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.77097166000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574041473123,5.68518724478927</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.77007705000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574381022291,5.68556160542938</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.76885120000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573174322639,5.68499970453497</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.76874770000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574105433216,5.6854696657747</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.76717410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574495460161,5.68448743094863</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.76637410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574116072404,5.68523225662707</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.76619345000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574277921219,5.68499443512539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.76616110000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573382073638,5.68587405397289</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.76561785000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574611666034,5.68489405129267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.76135100000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574035587233,5.6855128107489</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.76104250000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574550841454,5.68493491093004</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.76098740000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57407154562,5.68462649349791</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.76096950000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575411208834,5.68511794600751</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.76056590000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574047580214,5.68494306570298</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.76045024000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574134375208,5.68449293715141</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.75983070000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57400031301,5.68582037074608</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.75923955000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575305813258,5.68453721782412</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.75765693000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573309986056,5.68509202612757</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.75758340000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574635397614,5.68449157080475</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.75590860000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574976655456,5.68549441835834</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.75527596000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575193467805,5.68555034577002</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.75503623000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574604826523,5.6856989014545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.75303640000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574239061201,5.68564338009626</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.75215155000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574260511494,5.68523186272342</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.75113225000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575004993602,5.68429613703744</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.74950240000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573848626421,5.68481474464582</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.74872980000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574311827718,5.68584438952909</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.74598750000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573238073515,5.68520526032992</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.74552107000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574207184442,5.68470977187982</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.74508160000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573027829271,5.68507470897271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.74382400000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574610681334,5.68536203184976</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.74320830000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574493000535,5.68441283248314</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.74217360000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573240127743,5.68513064951502</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.74216760000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574686498836,5.6850249713968</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.74089950000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573774457163,5.68492798503048</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.74037075000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574190001989,5.68503084709925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.73877823000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573456718875,5.68510519076649</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.73820760000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574749247254,5.68569172515925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.73475295000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574569856576,5.68445783812623</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.73397590000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574062125038,5.68448183033372</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.73369600000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574063138643,5.68485485351155</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.73275240000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573827587335,5.68537773211735</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.73107850000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574396371721,5.68539652787257</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.73079085000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574992343702,5.68462398208128</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.72847880000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57413752285,5.6848207392332</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.72846050000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574535367778,5.6858844734796</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.72631264000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575552751426,5.68488244048032</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.72515550000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574181822433,5.6853428547153</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.72049380000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573038653122,5.68490512215059</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.72021960000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57412037109,5.68515311819314</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.71949580000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573316535579,5.68501062077066</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.71668660000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575757375217,5.68460606906071</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.71635350000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57400368015,5.68456789869134</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.71605900000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574186157973,5.68527728076154</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.71566620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573613062617,5.68533310171989</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.71561830000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574255813441,5.68516405264506</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.71431273000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574252368872,5.68555743480619</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.71340980000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574522904991,5.68462074110259</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.71290580000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574240851064,5.68547155722449</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.70878070000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574524773127,5.68530800788834</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.70805955000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57568954653,5.68456103896755</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.70711910000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573307944116,5.68517115843492</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.70641640000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574554292077,5.68454378956215</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.70555720000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57307814946,5.68532099515437</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.70473950000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573382088937,5.6850488750883</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.70457745000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573616691911,5.68500754184965</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.70127440000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575351522165,5.68474734395194</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.70049810000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574275449312,5.68491531516051</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.69755167000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573654263506,5.68554550118188</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.69697230000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574339403301,5.68519547535309</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.69570340000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573467794381,5.68502829460453</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.69522300000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573923201067,5.68485071353987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.69470470000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573784635896,5.68452101983684</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.69362270000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575616939675,5.6852485086636</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.69197476000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573908584981,5.68445511978681</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.69028380000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574045765677,5.68510584560653</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.69018555000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.572892049249,5.6849394330922</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.68860000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574052835305,5.68604630383139</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.68824060000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574394336087,5.68547792088827</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.68766737000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574900026685,5.68553306040335</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.68754650000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573246456227,5.68496785724991</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.68639743000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574296238616,5.6859212979903</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.68561494000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575468921799,5.68476284889902</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.68423116000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574703238534,5.68454112253858</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.68377290000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574976415704,5.68540624928488</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.68283190000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574755366285,5.68545206764216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.68273956000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573846799534,5.68497300307132</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.68262196000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575829939026,5.68473247362748</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.68135905000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573880269207,5.68566244466454</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.68115443000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57447322791,5.68544153349299</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.68037650000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574614156422,5.68497995348119</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.67962800000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574352577731,5.68423009363374</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.67698420000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573236031569,5.68528439263955</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.67679465000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573575359303,5.68557736698923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.67618686000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573842764939,5.68514935362343</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.67511180000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574460332029,5.68567894876237</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.67125730000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573239900552,5.68504700186133</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.67119217000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573511626666,5.68537859351979</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.67094450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573551120126,5.6849625053204</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.67078200000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574254152593,5.68538335118879</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.66841850000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574532656101,5.68571718443754</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.66810524000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574606407306,5.68545021325219</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.66808313000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573347667942,5.68567067900584</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.66678170000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574904079368,5.68536349217119</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.66543436000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573356492731,5.68559604973954</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.66508100000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575834667993,5.68481158736684</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.66470640000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575129703927,5.68534026890555</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.66238460000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575762743752,5.68492030024925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.66231513000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574173464724,5.68558930068667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.66179600000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573360809936,5.68552369352444</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.65494657000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573886400889,5.68542730855027</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.65481910000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574054565811,5.68502217336938</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.65436200000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57389047845,5.68526678322935</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.65357970000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574079456834,5.68587667398868</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.65332010000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574343468463,5.68503042857056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.64783300000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574422454272,5.68419825239959</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.64742756000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573737687564,5.68551588380637</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.64617200000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574355319949,5.68440868643242</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.64604280000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574205560394,5.6849426349096</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.64564370000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575833069213,5.68505349319747</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.64367220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574458290268,5.6857580810293</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.64171875000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573855194301,5.68474012154413</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.64050573000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573165761837,5.6851715459454</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.63861830000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574431721315,5.68428639688169</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.63861690000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574241526989,5.68572023931364</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.63789916000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574609733616,5.68584357687508</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.63699275000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57467015874,5.68565576873136</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.63696396000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573316314522,5.68492923386703</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.63621340000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574124202861,5.68490216302986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.63576650000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574729220815,5.68413637516228</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.63505020000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574551511302,5.68518133224061</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.63495400000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573689093142,5.68590486763638</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.63427114000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574174640192,5.68519140317345</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.63302540000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574140771053,5.68435501315574</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.63263905000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57423839341,5.68456725869981</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.63206375000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573844327686,5.6848938830882</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.63122430000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573275350055,5.6856347039061</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.63003707000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573375754357,5.68520940659692</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.62972700000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573325120909,5.68484782235941</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.62807906000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573301984118,5.68546959553375</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.62717104000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573223104455,5.68551050428504</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.62433240000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574900457,5.68569131259144</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.62393590000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574311569617,5.68574943818985</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.62356997000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574336925233,5.68511409464537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.62343000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575275816334,5.68429539814279</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.62338280000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574924533487,5.68458573411911</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.62309770000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574894849074,5.68528891219797</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.62220716000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573755490611,5.68542314396078</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.62176555000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574002827927,5.68591531594461</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.62092600000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574029234434,5.68566655997401</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.61945370000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.5729059035,5.68505469433208</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.61940260000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573452401671,5.68517754697913</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.61937696000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.572824730148,5.68508204468405</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.61924600000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57395869419,5.68545424058399</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.61884004000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573671271661,5.68599082524491</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.61787650000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574758804384,5.6850564248257</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.61662420000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573847964455,5.68623224513384</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.61624765000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573505267577,5.68553008203084</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.61568180000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573390686527,5.68489059817572</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.61252710000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573709171484,5.68581890387501</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.61249960000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574544501048,5.68509318161609</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.61184037000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573774737248,5.68586167960802</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.61147550000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573702145511,5.68489427071193</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.61084500000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574149524059,5.68591491586681</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.61081950000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575012003881,5.68438428764196</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.60914004000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573632118707,5.68570155424941</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.60844874000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574406543787,5.68498730204689</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.60832120000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575901820187,5.68460793553428</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.60807157000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573743601897,5.68603132176903</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.60740790000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574756830252,5.68516042528653</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.60713553000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573699941315,5.68574432384321</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.60626763000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574428282852,5.68468203976695</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.60567355000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574918131697,5.68472139732582</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.60381230000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574678952621,5.6855698357631</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.60324055000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575407623891,5.68462963123677</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.60266304000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573222901813,5.68543589962131</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.60254186000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573577235357,5.68543719452273</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.60243237000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574967185399,5.68533166931569</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.60233790000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574393850621,5.68529932194524</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.60088634000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574322233272,5.68552107204734</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.59925157000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.572966740532,5.68501835632809</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.59871125000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575281744016,5.68481535722529</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.59768540000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575431004067,5.68492798799169</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.59644760000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57310174085,5.6848665172414</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.59530944000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574395227173,5.68580572907186</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.59505510000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57505653154,5.68499005043613</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.59496695000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573427772714,5.68524995855834</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.59355730000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574323814197,5.68527238381086</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.59273340000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573952415091,5.68563511877296</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.58821815000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573745643747,5.68595218947803</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.58707744000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57396117222,5.68553562130673</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.58602050000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574758583122,5.68497503797887</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.58551330000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574420873264,5.68444694063268</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.58247890000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575626250013,5.68452277877876</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.58057670000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574596826731,5.68524677074795</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.57908595000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575186469733,5.68546671667316</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.57837580000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573967101151,5.68522588056261</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.57807770000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.572828986049,5.68498708097585</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.57681170000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573474313178,5.68493558551623</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.57645154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574468265574,5.68527651134456</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.57370250000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.5738202247,5.68599041909195</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.57346320000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575693826571,5.68447511834677</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.57279910000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574218653049,5.68477756349912</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.57234500000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574684450938,5.68510184291124</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.57172570000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575217918788,5.68458267289914</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.57044023000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574505865796,5.68416411348412</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.56629145000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574143617653,5.6845720386623</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.56562865000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573811442986,5.68608087357637</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.56535360000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574716331066,5.68437605115641</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.56354076000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574554728367,5.68470430252807</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.56146370000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575052872318,5.68530430636445</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.56039137000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574088281521,5.68580204473693</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.55987936000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573901643837,5.68605349844266</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.55959475000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574903507698,5.68515324283337</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.55859140000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574388690118,5.68589165589155</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.55810297000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574716122128,5.68429918579769</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.55684865000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575981831176,5.68498300347686</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.55648410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575359258525,5.68427256283988</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.55593497000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573476757515,5.68583536286879</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.55535114000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573912663969,5.68595625556656</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.55514497000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.5736191883,5.68509570482985</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.55510880000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57289727509,5.6852016675351</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.55232890000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574748386719,5.68537522075906</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.55189097000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574629223126,5.68471088162597</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.55067605000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575434158661,5.68525805060271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.55049960000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573630248826,5.68584398745832</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.54847940000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574407207434,5.68523146262808</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.54744270000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575484246358,5.68458872842071</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.54651760000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574476690785,5.6850549336089</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.54501860000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573498288169,5.68545323508715</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.54455906000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573277874209,5.68490220946449</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.54335550000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573290939302,5.68555779543636</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.54326427000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575837792045,5.68513034619056</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.54190640000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.5738226559,5.68522401364569</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.54041870000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574204712557,5.68463065191088</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.53996010000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574484390933,5.68456658783713</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.53983240000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574689585414,5.68533016592448</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.53853260000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575301539309,5.6846253992031</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.53841513000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574388223054,5.68571983918887</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.53738266000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575420513326,5.68438995530691</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.53643620000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573579682623,5.68550727152705</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.53295490000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573663082114,5.68546861117514</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.53245790000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573996303105,5.68600576426899</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.53187250000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574935153979,5.68434154281007</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.53071076000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574826897399,5.68519866709492</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.53017630000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574980136425,5.6851146008014</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.52920413000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573146279009,5.68547680221117</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.52508500000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574783920006,5.68433291230628</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.52376930000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575195238947,5.68537174073755</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.52193224000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574605023206,5.68577124532193</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.52062660000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574911594689,5.68480732412965</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.51949215000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574052601815,5.68596039546672</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.51933050000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573728031147,5.68611501247704</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.51921100000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.576047649126,5.68511846945015</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.51753265000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575703721065,5.68479385871626</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.51697710000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57612607938,5.68491252605174</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.51647997000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575562695259,5.68438956729436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.51570480000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574530620497,5.68579857744786</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.51509553000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575617431654,5.68459966874175</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.51466364000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574906569821,5.68544939434453</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.51280100000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573656741497,5.68562688191741</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.51205426000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57428402823,5.68475025606321</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.51057530000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573963011322,5.68538188438516</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.51050997000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574478720277,5.68497127984933</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.50879997000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574039527612,5.68613224912677</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.50559570000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57457978118,5.68478788241645</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.50491420000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574672784397,5.68579140732131</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.50319080000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574612096221,5.6850523035063</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.50269556000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573159568431,5.68538407465962</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.50223660000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574404729355,5.68515008192343</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.50112605000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574344680783,5.68464609555961</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.49939537000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575147181688,5.68429800987895</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.49936318000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575365272352,5.68482417233261</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.49928033000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57441678965,5.68460520517327</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.49912500000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573996510305,5.68442096862106</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.49873018000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574425583596,5.68451927219987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.49856365000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573297261602,5.68539274242834</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.49845160000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575088398936,5.68425973729804</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.49839246000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574678104434,5.68525785284246</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.49798417000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573032128114,5.68499557050564</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.49570858000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575620371072,5.68485060525792</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.49406758000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573919375346,5.68510392947292</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.49152860000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573545332194,5.6853242433059</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.49147630000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574134823665,5.68465797164306</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.49041590000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574856459002,5.68445027408225</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.48913673000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575625468987,5.68506536369437</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.48726500000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573774229902,5.68484433739777</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.48628510000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574628829831,5.68456619388732</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.48615012000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574166939918,5.68567974900558</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.48486720000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575165433241,5.68437030447014</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.48340514000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573313590996,5.68475742322052</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.48290277000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575533491225,5.68526908329431</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.48194265000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575490039022,5.6850589510546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.48161238000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574926562931,5.68450208037502</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.48148727000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573111793634,5.68524403748012</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.47916833000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.572890295776,5.68512482055978</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.47693092000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575554356491,5.68464279536167</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.47666398000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575564503272,5.68422452675597</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.47521300000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575488354273,5.68443950693329</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.47520540000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573785311511,5.68476970198893</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.47432607000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574595130592,5.68462280487147</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.47315404000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.576047403076,5.68502803967683</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.47294995000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573845478942,5.6844869425171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.47246397000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573683197317,5.68539621189789</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.47210315000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574961683108,5.68413800182645</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.47209436000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575912169965,5.6850939709584</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.47179988000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573823294757,5.68545913130678</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.47116170000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573986952154,5.68505626918406</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.46704880000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575419959575,5.68501618784398</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.46637598000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573870789618,5.68466547383115</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.46598417000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574829928754,5.68548351488867</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.46577367000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575065325379,5.68490411747876</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.46570320000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574348997888,5.68457373937098</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.46393540000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57554457259,5.68519444791328</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.46358797000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575769114581,5.68477333336497</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.46310562000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575206837369,5.68465730828384</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.46224535000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57576811849,5.68523679217747</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.46143198000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575112171625,5.68553248152637</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.46063066000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573575537427,5.68564292865195</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.46035582000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574169387264,5.68574982598679</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.46005684000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57483921542,5.68474874176519</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.45826194000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574582953703,5.68512472740605</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.45774773000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574480768207,5.68489440832785</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.45360988000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573393152172,5.68496745743071</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.45287865000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574960175075,5.68524351871469</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.45042360000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574356149402,5.68471388717222</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.44806010000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573308355547,5.68532262850472</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.44803733000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57377012771,5.68499581974092</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.44782072000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57482438853,5.68510598267994</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.44712868000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574208611927,5.6844045649641</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.44707470000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574797227616,5.68424696703064</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.44688480000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574345497976,5.68494677480608</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.44518173000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573636714995,5.68490123137107</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.44399840000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573486171927,5.68597776532335</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.44351628000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574622729092,5.68481263365976</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.44209380000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57501355391,5.68412429574941</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.44143292000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573897015599,5.68518085639501</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.44142997000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573693277761,5.68495307474158</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.44018560000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573995512718,5.68488442782871</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.43903310000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575077557215,5.6844225417564</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.43901536000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575753107489,5.6846965111686</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.43867648000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575836506646,5.684657850574</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.43786106000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57431343319,5.68560474427858</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.43746454000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574907603435,5.68499949981916</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.43736842000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574709136478,5.68422007816001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.43690017000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57448279156,5.68480849382207</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.43613850000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57526223769,5.68511157027324</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.43479510000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574682396896,5.6851764536798</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.43449047000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574352053499,5.68486763022397</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.43223214000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574695083774,5.6848621730718</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.43155074000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574849934268,5.6845407223792</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.43139118000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575554584001,5.68472644292305</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.42679000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575909697832,5.68501485106276</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.42638108000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574862283126,5.6841021007765</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.42606354000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573707965097,5.68620549773388</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.42589260000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573812051216,5.68630468749839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.42492485000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573490083727,5.68575619980553</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.42469496000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574698933764,5.6846180002093</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.42448807000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574470295059,5.68519285758507</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.42418950000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573662465351,5.68607223674607</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.42252618000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573833442649,5.68504086239262</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.42180288000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575486306463,5.68451637842201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.42047748000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573386848294,5.68513929267496</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.42034236000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574676480635,5.6854907158173</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.41999605000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573664251813,5.68506845281741</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.41967767000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575418699136,5.6845527351104</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.41966760000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573602757688,5.68486289095426</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.41959685000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573764217068,5.68531234275432</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.41931504000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574494864151,5.68426813857859</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.41820028000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573738015733,5.6848060031431</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.41738500000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574351021273,5.68448782485964</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.41631815000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574977393951,5.68493600806418</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.41446993000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573638720049,5.68480853459265</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.41425180000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574775365789,5.68450701435521</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.41360125000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574856041085,5.6842965433754</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.41317410000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573820650892,5.68531671041572</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.41295397000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57590947026,5.68493120351657</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.41264167000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575198689054,5.68498061949132</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.41118062000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574674863007,5.68572583953649</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.41069996000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574869360976,5.68421511959256</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40983444000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57378688165,5.68617815338082</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40903476000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574825857617,5.68564630088901</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40901586000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574970315204,5.68565268901559</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40896273000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575222881276,5.6847476949874</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40832102000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575402765879,5.68450304183017</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40775594000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57538800079,5.68488289011496</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40744692000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573913952494,5.68476935127238</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40733227000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574913433589,5.68465358727184</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40680745000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573546422166,5.68489469521205</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40633827000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574357331052,5.68431825042854</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40450215000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573048423446,5.68517864801176</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40433678000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573629545214,5.68475430127323</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40371540000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575697829908,5.68511716369244</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40361380000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573818955567,5.6846927443069</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40327135000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573701684876,5.6847247146933</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40174305000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573279928442,5.68482759865041</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40151270000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574742145932,5.68473996351489</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40091074000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575648541871,5.68442098366562</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40081912000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573107095713,5.68517622735523</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40070894000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57378033837,5.68626181947199</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.40018967000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573241414458,5.68477344527399</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39991373000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574465615419,5.68513182975321</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39958465000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574156098018,5.68584255351804</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39810820000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575417740042,5.68420005887872</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39764190000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573877027221,5.68613043152694</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39639330000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573912309905,5.68499543209355</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39583072000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573688420097,5.68482648521888</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39501900000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573916000506,5.68469247973184</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39500883000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573833563147,5.68591577752655</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39497077000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573689261543,5.68513620754634</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39479905000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575009206147,5.6841853481925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39419413000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57400125744,5.68450686468618</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39371768000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574990308125,5.68470537507722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39282316000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574900556259,5.68489778473923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39186496000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575690647294,5.68496571227738</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39127567000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573441725355,5.68540139170707</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39106935000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575548846482,5.68510626654325</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.39005318000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575090446808,5.68418286579569</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.38970950000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573734128503,5.68503661162902</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.38865440000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575333313602,5.68469087459329</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.38708255000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575479486478,5.68532801050113</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.38468662000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573312611357,5.68522766481516</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.38423353000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573772617979,5.68508172196722</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.38388330000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573467358366,5.68486778155618</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.38277745000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575281387437,5.68468423400398</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.38210420000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573594704127,5.68605207462755</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.38142220000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573871932131,5.68508597272197</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.38112488000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575769311377,5.68484567719402</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.38098115000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575371034631,5.68445339165857</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.37980276000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575069445678,5.68475941745622</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.37812380000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573558317878,5.68595043946533</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.37749732000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573343387588,5.68575659970464</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.37735233000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574234965328,5.68579712315285</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.37729820000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574858506898,5.6843734025725</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.37693384000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573374679725,5.68481377582719</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.37610686000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573557473097,5.68480875606396</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.37516510000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575560899555,5.68455912932194</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.37413448000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575196696555,5.68507783769618</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.37380850000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574338297292,5.6847885410361</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.37375640000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575479080629,5.68517880133511</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.37319350000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573952423528,5.68480767936011</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36966044000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573984455712,5.68496810622079</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36963980000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573818934608,5.68551566228225</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36947995000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573859259634,5.68457507472518</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36878127000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573189611053,5.68481201944136</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36875516000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573559929794,5.68571305487835</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36844385000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57319071012,5.68521669323621</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36834604000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574020166167,5.6848210592346</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36766362000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575560739688,5.68450034995435</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36758380000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575330497283,5.68448515294291</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36673993000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575018927203,5.68527048755489</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36668223000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574815951165,5.68532303889234</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36597890000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57296035058,5.68515854113481</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36574470000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574458603706,5.68587337907585</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36572012000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574649332054,5.68463622160804</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36536360000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573549065933,5.68503711612557</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36514360000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573180737108,5.68486856272987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36504477000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574982153548,5.68502642556931</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36441934000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573494281021,5.68480892831153</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36434257000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575143092116,5.68445401362483</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36402060000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573923690246,5.68586127343756</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36353160000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.5755010958,5.6849752726937</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36321520000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574230691257,5.68588530456795</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36288133000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574761546801,5.68523501758176</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36210656000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.576042231198,5.6847861523548</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36200646000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57342211677,5.6848294718824</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36187577000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573506320688,5.68508696944905</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36151838000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573951858402,5.68459969066829</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36064628000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573785308962,5.68559940221569</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36060864000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575620574001,5.68492520983679</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.36017317000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573722337948,5.68568096139787</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.35961890000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573637799557,5.68613108385407</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.35793936000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573824568771,5.68509740567418</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.35614356000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573775046827,5.68514501672498</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.35589530000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.576042643315,5.68493762222659</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.35574988000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573873111589,5.6855200360865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.35440087000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573339064246,5.6858266951729</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.35423777000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573378164743,5.68526591912624</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.35384630000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574923445624,5.68418558214543</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.35186830000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573010161167,5.68521718527428</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.35163826000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573676205608,5.68531484346828</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.35113820000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574062290896,5.68454287049043</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.35088676000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573428632509,5.6855664631617</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.35057490000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575070971048,5.68449038259184</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.35038328000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575701697894,5.68487977317617</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.35032177000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573551694705,5.68600471585216</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34941983000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57597096515,5.6851367649046</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34897440000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574703896109,5.68478302234272</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34877430000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575630677626,5.68532081553407</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34824765000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575016516658,5.68521397507677</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34804764000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573569227509,5.68581250313441</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34802060000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573369628585,5.68544680351143</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34772790000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574540380638,5.68523788167026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34659916000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575328006812,5.68439925078492</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34593728000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573376789212,5.68475951174156</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34553057000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575229012502,5.68451255900538</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34487180000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.5748238282,5.68572995463469</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34378177000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573012227704,5.68514709594737</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34277700000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574577980739,5.68412548384276</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34260827000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575122705875,5.68525663980409</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34098044000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573588805058,5.68471145781477</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34043485000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57482564247,5.6855671747921</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.34019740000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574777837746,5.68458613430059</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33976084000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574639057181,5.68417731480926</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33967793000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573782722982,5.68464762781253</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33855587000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575368494973,5.68434940354124</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33799833000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575772435399,5.68516443602765</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33762807000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573820960601,5.68460004753548</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33751250000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574278451638,5.68435915926162</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33651868000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573705615141,5.68450993143076</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33505172000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57372863821,5.68467716518035</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33454925000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.572962435542,5.68509523404943</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33417666000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573825137766,5.68613735531807</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33405805000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57278401456,5.68504824415073</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33396834000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573410531579,5.68471872602433</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33309403000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57360294533,5.68576267440633</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33147666000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574686209983,5.68491871634289</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33132055000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573556454137,5.68609513342505</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33106807000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575632516298,5.68516707872903</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.33047720000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574012167031,5.684368928377</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32994870000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573243606587,5.68558053209132</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32925230000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574914172368,5.68409517694556</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32903066000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574887574451,5.68510354953223</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32713774000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575772250891,5.68509661368878</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32668418000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573953412548,5.68517165956705</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32595748000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57407071633,5.68432129271525</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32557900000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57460792666,5.68517891758922</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32532287000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574830993153,5.68504492407575</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32495368000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575292050801,5.68445586794682</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32453957000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573549112291,5.68588490241463</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32394683000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573469197647,5.68471404459708</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32371587000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575702835629,5.68529801094733</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32341000000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575326247928,5.68458237730172</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32272893000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574748652239,5.68464273297711</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32265842000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574221891171,5.68596897680197</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32220826000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573875595753,5.68560367755934</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32219464000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574832149833,5.68464024444233</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32211650000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573531612915,5.68525871855489</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32211614000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573637191413,5.68590726991188</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32083160000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573776527232,5.68568985670062</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32050030000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573376159666,5.68535861591433</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.32031912000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574750410014,5.68528930626424</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31891525000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57492171625,5.68520971221231</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31842518000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574751652747,5.6849162770592</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31734370000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575051414668,5.68559820942362</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31722298000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.576110490524,5.68498943449065</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31686184000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574118454341,5.68444776529761</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31683230000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574971262665,5.68517114406977</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31682992000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573050950456,5.68527811475559</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31608456000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575420291998,5.68430856848423</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31554937000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.576117501005,5.68507758503075</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31541290000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57318870501,5.68530939003206</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31496373000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573184811472,5.68553773782446</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31488702000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575831710038,5.68455386864329</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31430814000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573549336159,5.68513658899621</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31399432000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573649678846,5.68468868424208</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31344968000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.5737436719,5.68522648975285</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31273517000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573187547309,5.68571406997149</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31178766000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573630632293,5.68515445348905</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31160600000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57385814905,5.68582754071117</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.31148660000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575562172408,5.68502710351331</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.30943945000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574819488904,5.68413386818242</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.30932188000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573139886452,5.68478502577741</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.30867893000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575039718458,5.68544677027437</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.30865258000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574195273512,5.6844792065189</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.30804133000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575758500637,5.68501978533526</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.30674928000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573683378195,5.68463207328663</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.30551326000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575752621672,5.68451791233799</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.30522800000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574935362948,5.68441840816055</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.30237228000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573606009502,5.68522912581647</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29989980000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574776355273,5.68487099442129</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29972845000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573743239446,5.68589793770904</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29863697000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573517832226,5.6851705863317</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29852630000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575076758158,5.68412864484721</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29841697000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573094223799,5.68542268573968</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29748243000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575643376265,5.68501105653798</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29651840000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573511200134,5.68605230229393</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29593468000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574827044919,5.68525292499062</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29554465000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57468980668,5.68541155277303</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29529930000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574410658101,5.68484034123756</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29523820000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573277815715,5.68571156316304</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29517910000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575844150541,5.68497885782199</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29481488000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573506293296,5.68590762678952</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29454586000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573684999649,5.68522891047479</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29310444000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57546782123,5.68435817554299</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29292387000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574231469246,5.68451075850348</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29248190000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575507724948,5.68492325708142</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29143020000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573644468276,5.68526293242744</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29133487000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574645581959,5.68408686650561</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29117802000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575608656339,5.68469238391896</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29019213000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573184964987,5.68559425650996</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29010037000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57475169467,5.68576180211844</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29008555000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575356638415,5.68496888465467</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.29001610000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575143245793,5.68451053225901</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28935158000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573369809859,5.68468266478705</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28881630000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574505052904,5.68469539496511</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28800870000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573872679379,5.68619148399474</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28790486000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574694628996,5.68469487788012</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28637670000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575426164475,5.68480818082375</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28550273000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575464764708,5.68489398442685</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28544602000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574746837878,5.68480551282966</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28467694000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574428491766,5.68475890513533</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28371740000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574805763409,5.68406608274547</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28305283000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575465336892,5.68427453413575</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28293252000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573144756274,5.68491613683321</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28268522000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575607586306,5.68512871383028</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28187025000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574914226491,5.68494522345331</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28153590000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573872169437,5.6860038420246</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28049415000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575141382355,5.68465522611983</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28009100000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575054760325,5.68516865548197</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.28002626000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.572471596631,5.68385993289205</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.27948824000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57529195806,5.68525165640725</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.27946907000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573017361529,5.68537541915756</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.27912095000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575130841899,5.68492880709713</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.27764133000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573095203571,5.6849524440993</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.27743447000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575557461915,5.68495477199708</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.27723658000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574790260394,5.68417464163403</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.27360106000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573008168307,5.68531440357276</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.27320355000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574819542904,5.68498391472759</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.27297032000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57560044676,5.68499308762145</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.27227968000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575062398488,5.68465770238453</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.27017486000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575056758992,5.68507369801663</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26957405000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575287634945,5.68532175182494</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26944070000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574826110652,5.68490929164938</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26927847000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573875157429,5.68627286471833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26908386000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573967387824,5.68616183579131</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26841384000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575160507683,5.6842188468461</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26801825000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57551057827,5.68514254317938</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26795703000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573875964359,5.68573932235882</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26662135000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574659415329,5.68585474514675</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26514090000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573728404824,5.68459125679817</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26478752000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574887087957,5.68575465041482</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26348690000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.5751288125,5.68501246083298</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26327276000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57309894629,5.68549953885406</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26320952000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573906642946,5.68623208511405</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26314660000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575287272743,5.68435866821898</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26227996000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574023016815,5.68587004562184</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26221862000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574473309415,5.68464122323388</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26163664000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573239571853,5.68575688268765</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26112002000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574994354695,5.68453354610316</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26055554000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574281390447,5.68461009594767</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.26044148000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573593103834,5.68463231936453</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.25929454000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574746781401,5.68561486596259</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.25920427000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57510724058,5.6845490634529</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.25919354000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574501161614,5.6840940426648</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.25822333000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574784891028,5.68469011013583</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.25768995000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57328714409,5.68582231517351</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.25655004000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575059957224,5.68458988617866</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.25614930000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575503807959,5.68431286210133</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.25562522000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573828428938,5.68568745441812</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.25545081000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575267808943,5.68550040612436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.25519893000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575693463789,5.68517143388661</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.25515687000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.5731467027,5.6856327937861</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.25410450000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573101356659,5.68555605139114</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.25232154000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57445654966,5.68594798985051</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.25218750000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574118511722,5.68612977294532</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.25048660000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573051423226,5.68545219231937</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.25032023000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.572731959425,5.68499412762576</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.24951386000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573420550882,5.68591464283124</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.24873474000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574411309443,5.68507998032726</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.24847690000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.572788295022,5.68496232343255</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.24665883000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.572921541916,5.6849958718436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.24638996000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573960498858,5.68445723901644</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.24627575000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.5751117843,5.68539005457092</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.24586818000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.5752309374,5.68439047260257</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.24369806000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575154707684,5.68540576277433</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.24326277000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575199531975,5.68446064191708</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.24176851000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574751061549,5.68552894531091</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.24126631000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574889136742,5.68484807912146</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.24044526000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57412268134,5.68600315883841</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.23917997000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574977166516,5.68485236048008</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.23824748000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575522489803,5.68537310835923</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.23794228000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.573638118188,5.68458698138734</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.23679504000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575643831393,5.68434865215027</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.23640165000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575188320809,5.68531750132799</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.23607045000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575279806855,5.6849329221336</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.23586091000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574156335619,5.68426906171484</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.23392388000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575741146758,5.68444786005219</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.23252782000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574825956995,5.68485277300732</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.23151097000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575596701818,5.68444599352719</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.23118067000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575370382964,5.68421375267477</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.22964513000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575833518198,5.68521852755051</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.22907344000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575019634177,5.68553047327942</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.22880894000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575589580773,5.68431714954678</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.22869322000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575108931102,5.68517076843128</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.22829440000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575121377366,5.68559801850547</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.22800499000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57429012912,5.6845038162541</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.22691011000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575820259712,5.6844928593405</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.22685009000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575336185277,5.6849169429478</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.22622350000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575779384171,5.68440027969327</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.22617012000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57522322555,5.68487429672164</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.22581455000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574415356159,5.6849081513111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.22506428000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575015501618,5.68567065181204</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.22230914000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.57525343159,5.68519298173542</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.22100309000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.576004608889,5.68505980717062</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.22008538000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575187725186,5.68426850935347</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.21735263000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575251808016,5.68542584464826</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.21683678000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575355303849,5.6853080025764</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.21629044000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575008897768,5.68490201067599</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.21579367000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574159036959,5.68609349020494</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.21422040000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575469709197,5.68422252468267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.21381575000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575253911163,5.68536931985978</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.21100110000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.5751416221,5.68474339518856</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.21036759000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574959198852,5.68405436039591</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.21016538000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575239386287,5.68500763758095</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.20864564000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575105167417,5.68544659167984</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.20825529000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574782867716,5.68477602463048</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.20769095000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575147408375,5.68521135715482</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.20737559000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575147986952,5.68459416752178</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.20305762000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574979226677,5.68478001046602</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.20042190000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.574567714937,5.68533049837936</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#web">
+		<SimpleData name="Score">0.18445626000</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>100.575606627,5.68477603763779</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

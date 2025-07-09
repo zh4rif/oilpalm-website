@@ -16,7 +16,7 @@ let baseLayers = {
 
 // Add default layer
 baseLayers.satellite.addTo(map);
-
+let currentGeoJsonLayer = null;
 // Drawing layers
 let drawnItems = new L.FeatureGroup();
 map.addLayer(drawnItems);
@@ -741,3 +741,219 @@ function toggleAnalyticsPanel() {
         mainContainer.classList.remove('panel-minimized');
     }
 }
+
+        function displayGeoJSON(geojsonData, options = {}) {
+            try {
+                // Parse JSON string if necessary
+                let geoData = typeof geojsonData === 'string' ? JSON.parse(geojsonData) : geojsonData;
+                
+                // Validate GeoJSON structure
+                if (!geoData.type || geoData.type !== 'FeatureCollection') {
+                    if (geoData.type === 'Feature') {
+                        geoData = {
+                            type: 'FeatureCollection',
+                            features: [geoData]
+                        };
+                    } else {
+                        throw new Error('Invalid GeoJSON format');
+                    }
+                }
+                
+                // Clear existing GeoJSON layer
+                if (currentGeoJsonLayer) {
+                    map.removeLayer(currentGeoJsonLayer);
+                }
+                
+                // Default styling options
+                const defaultOptions = {
+                    style: {
+                        color: '#3388ff',
+                        weight: 2,
+                        opacity: 0.8,
+                        fillOpacity: 0.3
+                    },
+                    pointToLayer: function(feature, latlng) {
+                        return L.circleMarker(latlng, {
+                            radius: 8,
+                            fillColor: '#ff7800',
+                            color: '#000',
+                            weight: 1,
+                            opacity: 1,
+                            fillOpacity: 0.8
+                        });
+                    },
+                    onEachFeature: function(feature, layer) {
+                        // Create popup content
+                        let popupContent = '<div>';
+                        
+                        if (feature.properties) {
+                            popupContent += '<h4>Properties:</h4>';
+                            for (let key in feature.properties) {
+                                popupContent += `<strong>${key}:</strong> ${feature.properties[key]}<br>`;
+                            }
+                        }
+                        
+                        popupContent += `<strong>Geometry:</strong> ${feature.geometry.type}<br>`;
+                        popupContent += '</div>';
+                        
+                        layer.bindPopup(popupContent);
+                    }
+                };
+                
+                // Merge user options with defaults
+                const finalOptions = { ...defaultOptions, ...options };
+                
+                // Create GeoJSON layer
+                currentGeoJsonLayer = L.geoJSON(geoData, finalOptions).addTo(map);
+                
+                // Fit map to bounds of the data
+                if (currentGeoJsonLayer.getBounds().isValid()) {
+                    map.fitBounds(currentGeoJsonLayer.getBounds());
+                }
+                
+                // Show success message
+                showMessage(`Successfully loaded ${geoData.features.length} features`, 'success');
+                
+                return currentGeoJsonLayer;
+                
+            } catch (error) {
+                showMessage(`Error loading GeoJSON: ${error.message}`, 'error');
+                console.error('GeoJSON loading error:', error);
+                return null;
+            }
+        }
+        
+        /**
+         * Load GeoJSON from file
+         * @param {File} file - File object from input
+         */
+        function loadGeoJSONFromFile(file) {
+            const reader = new FileReader();
+            
+            reader.onload = function(e) {
+                try {
+                    const geojsonData = JSON.parse(e.target.result);
+                    displayGeoJSON(geojsonData);
+                } catch (error) {
+                    showMessage('Error parsing file: Invalid JSON format', 'error');
+                }
+            };
+            
+            reader.onerror = function() {
+                showMessage('Error reading file', 'error');
+            };
+            
+            reader.readAsText(file);
+        }
+        
+        /**
+         * Load GeoJSON from URL
+         * @param {string} url - URL to fetch GeoJSON data from
+         */
+        async function loadGeoJSONFromURL(url) {
+            try {
+                const response = await fetch(url);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const geojsonData = await response.json();
+                displayGeoJSON(geojsonData);
+                
+            } catch (error) {
+                showMessage(`Error loading from URL: ${error.message}`, 'error');
+            }
+        }
+        
+        /**
+         * Show status messages
+         */
+        function showMessage(message, type = 'info') {
+            const infoDiv = document.getElementById('info');
+            infoDiv.className = type;
+            infoDiv.innerHTML = `<p>${message}</p>`;
+        }
+        
+        /**
+         * Clear the map
+         */
+        function clearMap() {
+            if (currentGeoJsonLayer) {
+                map.removeLayer(currentGeoJsonLayer);
+                currentGeoJsonLayer = null;
+            }
+            showMessage('Map cleared', 'info');
+        }
+        
+        /**
+         * Load sample GeoJSON data
+         */
+        function loadSampleData() {
+            const sampleGeoJSON = {
+                "type": "FeatureCollection",
+                "features": [
+                    {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [-74.0060, 40.7128]
+                        },
+                        "properties": {
+                            "name": "New York City",
+                            "population": "8.3 million",
+                            "type": "City"
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Polygon",
+                            "coordinates": [[
+                                [-74.0, 40.7],
+                                [-74.0, 40.8],
+                                [-73.9, 40.8],
+                                [-73.9, 40.7],
+                                [-74.0, 40.7]
+                            ]]
+                        },
+                        "properties": {
+                            "name": "Sample Area",
+                            "area": "Sample polygon",
+                            "type": "Zone"
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "LineString",
+                            "coordinates": [
+                                [-74.1, 40.7],
+                                [-74.05, 40.75],
+                                [-74.0, 40.8]
+                            ]
+                        },
+                        "properties": {
+                            "name": "Sample Route",
+                            "length": "5 km",
+                            "type": "Path"
+                        }
+                    }
+                ]
+            };
+            
+            displayGeoJSON(sampleGeoJSON);
+        }
+        
+        // File input event listener
+        document.getElementById('fileInput').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                loadGeoJSONFromFile(file);
+            }
+        });
+        
+        // Make functions globally available
+        window.displayGeoJSON = displayGeoJSON;
+        window.loadGeoJSONFromFile = loadGeoJSONFromFile;
+        window.loadGeoJSONFromURL = loadGeoJSONFromURL;
