@@ -1,30 +1,361 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palm Monitor - Geospatial Intelligence Platform</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.css" />
+    
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            overflow-x: hidden;
+        }
+        
+        .header {
+            background: #006838;
+            backdrop-filter: blur(10px);
+            color: white;
+            padding: 10px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 1000;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 14px;
+        }
+        
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background: #27ae60;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+        .main-container {
+            display: flex;
+            height: calc(100vh - 90px);
+            position: relative;
+        }
+        
+        .sidebar {
+            width: 250px;
+            background: #f8f9fa;
+            border-right: 1px solid #ddd;
+            padding: 20px;
+            overflow-y: auto;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            z-index: 999;
+        }
+        
+        .tool-group {
+            margin-bottom: 25px;
+        }
+        
+        .tool-group h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .tool-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            padding: 12px 15px;
+            margin-bottom: 8px;
+            border: 1px solid #ddd;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            text-align: left;
+        }
+        
+        .tool-btn:hover {
+            background: #e3f2fd;
+            border-color: #2196f3;
+            transform: translateY(-1px);
+        }
+        
+        .tool-btn.active {
+            background: #2196f3;
+            color: white;
+            border-color: #2196f3;
+        }
+        
+        .tool-btn i {
+            width: 16px;
+            text-align: center;
+        }
+        
+        .file-input-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .file-input-wrapper input[type="file"] {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        
+        .export-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin-top: 10px;
+        }
+        
+        .export-btn {
+            padding: 8px 12px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: background 0.3s ease;
+        }
+        
+        .export-btn:hover {
+            background: #2980b9;
+        }
+        
+        #map-container {
+            flex: 1;
+            position: relative;
+        }
+        
+        #map { 
+            height: 100%;
+            width: 100%;
+        }
+        
+        #infoForm {
+            display: none;
+            padding: 20px;
+            background: white;
+            border-top: 2px solid #3498db;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        .form-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .close-btn {
+            background: none;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            color: #666;
+        }
+        
+        .close-btn:hover {
+            color: #000;
+        }
+        
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+            margin-bottom: 15px;
+        }
+        
+        .form-grid input {
+            padding: 8px 12px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .form-grid input:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+        }
+        
+        .form-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .form-actions button {
+            padding: 10px 20px;
+            font-size: 14px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .form-actions button:first-child {
+            background: #27ae60;
+            color: white;
+        }
+        
+        .form-actions button:first-child:hover {
+            background: #219a52;
+        }
+        
+        .form-actions button:last-child {
+            background: #3498db;
+            color: white;
+        }
+        
+        .form-actions button:last-child:hover {
+            background: #2980b9;
+        }
+        
+        h3 {
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        
+        .btn {
+            padding: 5px 10px;
+            margin: 2px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        
+        .btn:hover {
+            opacity: 0.8;
+        }
+        
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 250px;
+            }
+            
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            .main-container {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+                height: 200px;
+                border-right: none;
+                border-bottom: 1px solid #ddd;
+            }
+            
+            #map-container {
+                height: calc(100vh - 290px);
+            }
+        }
+        .nav-button {
+    width: 90%;
+    padding: 12px 15px;
+    margin: 5px 0;
+    border: none;
+    background: linear-gradient(135deg, #006838 0%, #A1B593 100%);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    }
+
+    .nav-button:hover {
+      background-color: #fcfffc;
+    }
+        #coordinates {
+            position: absolute;
+            bottom: 15px;
+            right: 15px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-family: 'Courier New', monospace;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+        }
+
+    }
+    </style>
 </head>
 <body>
     <div class="header">
-        <div class="logo" style="display: flex; align-items: center; gap: 10px;">
+        <div class="logo">
             <img src="https://images.squarespace-cdn.com/content/v1/604db3a6dad32a12b2415387/1636475927545-PK57PVLIB7AEKX1AJQJ8/Logo_MSPO_2020.png" alt="MSPO Logo" style="height: 60px;">
-            <div style="align-items: center;">
-                <span style="font-weight: bold; ">MSPO-Palm Monitor</span><br>
+            <div>
+                <span style="font-weight: bold;">MSPO-Palm Monitor</span><br>
                 <span style="font-size: 12px; opacity: 0.7;">Powered by Uzma Digital Earth</span>
             </div>
         </div>
-        
+         
         <div class="user-info">
+            
             <div class="status-indicator">
                 <div class="status-dot"></div>
                 <span>Live Monitoring</span>
             </div>
-            
             <i class="fas fa-user-circle" style="font-size: 24px;"></i>
         </div>
     </div>
@@ -42,27 +373,16 @@
                 <button class="tool-btn" onclick="toggleLayer('ndvi')">
                     <i class="fas fa-seedling"></i> NDVI Analysis
                 </button>
-                <button class="tool-btn" onclick="requestNewImagery()">
+                  <button class="tool-btn" onclick="requestNewImagery()">
                     <i class="fas fa-refresh"></i> Request Update
                 </button>
-            </div>
+                
+                <button class="tool-btn" onclick="window.location.href='mspodeforestation.html'">Deforestation Map</button>
 
-            <div class="tool-group">
-                <h3><i class="fas fa-draw-polygon"></i> Mapping Tools</h3>
-                <button class="tool-btn" onclick="activateDrawing('polygon')">
-                    <i class="fas fa-vector-square"></i> Draw Polygon
-                </button>
-                <button class="tool-btn" onclick="activateDrawing('rectangle')">
-                    <i class="fas fa-square"></i> Rectangle Tool
-                </button>
-                <button class="tool-btn" onclick="activateDrawing('circle')">
-                    <i class="fas fa-circle"></i> Circle Tool
-                </button>
-                <button class="tool-btn" onclick="autoDetectPolygons()">
-                    <i class="fas fa-magic"></i> Auto-Detect
+                    <i class="fas fa-refresh"></i> 
                 </button>
             </div>
-
+            
             <div class="tool-group">
                 <h3><i class="fas fa-chart-line"></i> Analysis</h3>
                 <button class="tool-btn" onclick="runSpatialAnalysis()">
@@ -74,190 +394,381 @@
                 <button class="tool-btn" onclick="trendAnalysis()">
                     <i class="fas fa-trending-up"></i> Trend Analysis
                 </button>
-                <div class="tool-group">
-                <h3><i class="fas fa-upload"></i> Import Data</h3>
-                <i class="fas fa-file-import"></i> 
-                <input class="tool-btn" type="file" id="fileInput" accept=".geojson,.json" />
-                 
-                </button>
             </div>
-            </div>
-
-            <div class="layer-control">
-                <h4>Layer Control</h4>
-                <div class="layer-item">
-                    <label>
-                        <input type="checkbox" checked onchange="toggleLayer('base')"> Base Map
-                    </label>
-                    <input type="range" class="opacity-slider" min="0" max="100" value="100" onchange="setOpacity('base', this.value)">
-                </div>
-                <div class="layer-item">
-                    <label>
-                        <input type="checkbox" checked onchange="toggleLayer('satellite')"> Satellite
-                    </label>
-                    <input type="range" class="opacity-slider" min="0" max="100" value="80" onchange="setOpacity('satellite', this.value)">
-                </div>
-                <div class="layer-item">
-                    <label>
-                        <input type="checkbox" onchange="toggleLayer('clouds')"> Cloud Mask
-                    </label>
-                    <input type="range" class="opacity-slider" min="0" max="100" value="60" onchange="setOpacity('clouds', this.value)">
-                </div>
-                <div class="layer-item">
-                    <label>
-                        <input type="checkbox" onchange="toggleLayer('polygons')"> Polygons
-                    </label>
-                    <input type="range" class="opacity-slider" min="0" max="100" value="90" onchange="setOpacity('polygons', this.value)">
+            
+            <div class="tool-group">
+                <h3><i class="fas fa-upload"></i> Import/Export Data</h3>
+                <div class="file-input-wrapper">
+                    <input type="file" id="fileInput" accept=".geojson,.json" onchange="handleFileImport(event)" />
+                    <div class="export-buttons">
+                        <button class="export-btn" onclick="exportData('geojson')">
+                            <i class="fas fa-download"></i> Export GeoJSON
+                        </button>
+                        <button class="export-btn" onclick="exportData('shapefile')">
+                            <i class="fas fa-download"></i> Export Shapefile
+                        </button>
+                        <button class="export-btn" onclick="exportData('csv')">
+                            <i class="fas fa-download"></i> Export CSV
+                        </button>
+                        <button class="export-btn" onclick="exportData('report')">
+                            <i class="fas fa-file-pdf"></i> Generate Report
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="map-container">
+        
+        <div id="map-container">
+            <div id="coordinates">Lat: -, Lng: -</div>
             <div id="map"></div>
             
-            <div class="map-controls">
-                <button class="control-btn" onclick="fullScreen()" title="Fullscreen">
-                    <i class="fas fa-expand"></i>
-                </button>
-                <button class="control-btn" onclick="resetView()" title="Reset View">
-                    <i class="fas fa-home"></i>
-                </button>
-                <button class="control-btn" onclick="measureDistance()" title="Measure">
-                    <i class="fas fa-ruler"></i>
-                </button>
-                <button class="control-btn" onclick="takeScreenshot()" title="Screenshot">
-                    <i class="fas fa-camera"></i>
-                </button>
-            </div>
-
-            <div class="drawing-toolbar">
-                <button class="draw-btn" onclick="activateDrawing('marker')">
-                    <i class="fas fa-map-marker-alt"></i> Point
-                </button>
-                <button class="draw-btn" onclick="activateDrawing('polyline')">
-                    <i class="fas fa-route"></i> Line
-                </button>
-                <button class="draw-btn" onclick="activateDrawing('polygon')">
-                    <i class="fas fa-draw-polygon"></i> Polygon
-                </button>
-                <button class="draw-btn" onclick="clearDrawings()">
-                    <i class="fas fa-trash"></i> Clear
-                </button>
-            </div>
-        </div>
-
-        <div class="analytics-panel" id="analyticsPanel">
-            <button class="panel-toggle-btn" id="panelToggleBtn" onclick="toggleAnalyticsPanel()" title="Minimize Panel">
-            <i class="fas fa-chevron-right" id="panelToggleIcon"></i>
-            </button>
-            <div class="panel-section">
-                <h4>Real-Time Metrics</h4>
-                <div class="metric-card">
-                    <div class="metric-value">2,847</div>
-                    <div class="metric-label">Active Polygons</div>
-                </div>
-                <div class="metric-card" style="background: linear-gradient(135deg,  #228B22 0%, #A1B593 100%);">
-                    <div class="metric-value">94.2%</div>
-                    <div class="metric-label">Healthy Coverage</div>
-                </div>
-                <div class="metric-card" style="background: linear-gradient(135deg,  #228B22 0%, #A1B593 100%);">
-                    <div class="metric-value">1.2GB</div>
-                    <div class="metric-label">Data Processed Today</div>
-                </div>
-            </div>
-
-            <div class="panel-section">
-                <h4>Active Alerts</h4>
-                <div class="alert-item">
-                    <i class="fas fa-exclamation-triangle"></i>
-                    <div>
-                        <div style="font-weight: bold;">Disease Detection</div>
-                        <div style="font-size: 12px;">Sector 7A - Block 23</div>
-                    </div>
-                </div>
-                <div class="alert-item" style="background: linear-gradient(135deg,  #228B22 0%, #A1B593 100%);">
-                    <i class="fas fa-cloud-rain"></i>
-                    <div>
-                        <div style="font-weight: bold;">Weather Warning</div>
-                        <div style="font-size: 12px;">Heavy rain predicted</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="panel-section">
-                <h4>Weather Forecast</h4>
-                <div class="weather-widget">
-                    <i class="fas fa-cloud-sun" style="font-size: 24px;"></i>
-                    <div class="weather-temp">28°C</div>
-                    <div>Partly Cloudy</div>
-                    <div style="font-size: 12px; margin-top: 8px;">Humidity: 78% | Wind: 12 km/h</div>
-                </div>
-            </div>
-
-            <div class="panel-section">
-                <h4>Selected Polygon</h4>
-                <div class="polygon-info">
-                    <div class="info-row">
-                        <span>Area:</span>
-                        <span>234.5 Ha</span>
-                    </div>
-                    <div class="info-row">
-                        <span>NDVI Avg:</span>
-                        <span>0.67</span>
-                    </div>
-                    <div class="info-row">
-                        <span>Tree Count:</span>
-                        <span>~14,670</span>
-                    </div>
-                    <div class="info-row">
-                        <span>Health Score:</span>
-                        <span style="color: #3a923d; font-weight: bold;">Good</span>
-                    </div>
-                    <div class="info-row">
-                        <span>Last Updated:</span>
-                        <span>2 hours ago</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="panel-section">
-                <h4>Performance Chart</h4>
-                <div class="chart-container">
-                    <canvas id="trendChart" width="280" height="150"></canvas>
-                </div>
-            </div>
-
-            <div class="panel-section">
-                <h4>Data Export</h4>
-                <div class="export-section">
-                    <button class="export-btn" onclick="exportData('geojson')">
-                        <i class="fas fa-download"></i> Export GeoJSON
+            <div id="infoForm">
+                <div class="form-header">
+                    <h3>Polygon Info</h3>
+                    <button class="close-btn" onclick="closeInfoForm()">
+                        <i class="fas fa-times"></i>
                     </button>
-                    <button class="export-btn" onclick="exportData('shapefile')">
-                        <i class="fas fa-download"></i> Export Shapefile
-                    </button>
-                    <button class="export-btn" onclick="exportData('csv')">
-                        <i class="fas fa-download"></i> Export CSV
-                    </button>
-                    <button class="export-btn" onclick="exportData('report')">
-                        <i class="fas fa-file-pdf"></i> Generate Report
-                    </button>
+                </div>
+                <div class="form-grid">
+                    <input id="license" placeholder="License no." />
+                    <input id="name" placeholder="Smallholder name" />
+                    <input id="state" placeholder="State" />
+                    <input id="district" placeholder="District" />
+                    <input id="subdistrict" placeholder="Subdistrict" />
+                    <input id="spocName" placeholder="SPOC Name" />
+                    <input id="spocCode" placeholder="SPOC Code" />
+                    <input id="lotNo" placeholder="Lot no." />
+                    <input id="certified" placeholder="Certified Area (HA)" />
+                    <input id="planted" placeholder="Planted Area (HA)" />
+                    <input id="latitude" placeholder="Latitude" readonly />
+                    <input id="longitude" placeholder="Longitude" readonly />
+                    <input id="mspo" placeholder="MSPO Certification" />
+                    <input id="land" placeholder="Land Title" />
+                    <input id="shapeLength" placeholder="Shape_Length" />
+                    <input id="shapeArea" placeholder="Shape_Area" />
+                </div>
+                <div class="form-actions">
+                    <button onclick="saveInfo()">Save Info</button>
+                    <button onclick="exportGeoJSON()">Download GeoJSON</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="loadingOverlay" class="loading-overlay" style="display: none;">
-        <div class="spinner"></div>
-        <span>Processing satellite data...</span>
-    </div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-draw@1.0.4/dist/leaflet.draw.js"></script>
+    
+    <script>
+        const map = L.map('map').setView([4.4286, 102.0581], 12);
+        
+        let baseLayers = {
+            satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+                attribution: 'Esri, DigitalGlobe, GeoEye, Earthstar Geographics'
+            }),
+            terrain: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+                attribution: 'Esri, DeLorme, NAVTEQ'
+            }),
+            osm: L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: 'OpenStreetMap contributors'
+            })
+        };
+        
+        baseLayers.satellite.addTo(map);
+        const coordDiv = document.getElementById('coordinates');
+        const drawnItems = new L.FeatureGroup();
+        map.addLayer(drawnItems);
 
-    <div id="notification" class="notification">
-        <i class="fas fa-check-circle"></i> <span id="notificationText"></span>
-    </div>
+        const drawControl = new L.Control.Draw({
+            edit: { featureGroup: drawnItems },
+            draw: {
+                polygon: true,
+                polyline: true,
+                rectangle: true,
+                circle: true,
+                marker: true,
+                circlemarker: true
+            }
+        });
+        map.addControl(drawControl);
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
-    <script src="script.js"></script>
+        let currentLayer = null;
+        let currentCircle = null;
+        const geojsonFeatures = [];
+
+        map.on(L.Draw.Event.CREATED, function (e) {
+            const layer = e.layer;
+            const type = e.layerType;
+            
+            drawnItems.addLayer(layer);
+            
+            if (type === 'circle') {
+                currentCircle = layer;
+                const center = layer.getLatLng();
+                const radius = layer.getRadius();
+                
+                layer.bindPopup(`
+                    <strong>New Circle</strong><br>
+                    Center: ${center.lat.toFixed(6)}, ${center.lng.toFixed(6)}<br>
+                    Radius: ${(radius/1000).toFixed(2)} km<br>
+                    <button onclick="analyzePolygon()" class="btn" style="background: #3498db; color: white;">Analyze</button>
+                    <button onclick="deleteShape()" class="btn" style="background: #e74c3c; color: white;">Delete</button>
+                `);
+            } else if (type === 'marker') {
+                const latlng = layer.getLatLng();
+                layer.bindPopup(`
+                    <strong>Marker</strong><br>
+                    Location: ${latlng.lat.toFixed(6)}, ${latlng.lng.toFixed(6)}<br>
+                    <button onclick="deleteShape()" class="btn" style="background: #e74c3c; color: white;">Delete</button>
+                `);
+            } else {
+                currentLayer = layer;
+                const center = layer.getBounds().getCenter();
+                document.getElementById('latitude').value = center.lat.toFixed(10);
+                document.getElementById('longitude').value = center.lng.toFixed(10);
+
+                const geojson = layer.toGeoJSON();
+                if (geojson.geometry.coordinates && geojson.geometry.coordinates[0]) {
+                    const coords = geojson.geometry.coordinates[0];
+                    document.getElementById('shapeLength').value = (coords.length * 0.0001).toFixed(6);
+                    document.getElementById('shapeArea').value = (Math.random() * 1e-6).toFixed(12);
+                }
+
+                document.getElementById('infoForm').style.display = 'block';
+            }
+        });
+        map.on('mousemove', function (e) {
+      const { lat, lng } = e.latlng;
+      coordDiv.textContent = `Lat: ${lat.toFixed(5)}, Lng: ${lng.toFixed(5)}`;
+    });
+        // Delete shape function
+        function deleteShape() {
+            const popup = map._popup;
+            if (popup && popup._source) {
+                const layer = popup._source;
+                drawnItems.removeLayer(layer);
+                map.closePopup();
+            }
+        }
+
+        // Analyze polygon function
+        function analyzePolygon() {
+            showNotification('Analysis started for selected area...');
+        }
+
+        function toggleLayer(layerName) {
+            // Remove active class from all imagery buttons
+            document.querySelectorAll('.tool-group:first-child .tool-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Add active class to clicked button
+            event.target.classList.add('active');
+            
+            switch(layerName) {
+                case 'satellite':
+                    // Remove other layers
+                    if (map.hasLayer(baseLayers.terrain)) {
+                        map.removeLayer(baseLayers.terrain);
+                    }
+                    if (map.hasLayer(baseLayers.osm)) {
+                        map.removeLayer(baseLayers.osm);
+                    }
+                    // Add satellite layer
+                    if (!map.hasLayer(baseLayers.satellite)) {
+                        baseLayers.satellite.addTo(map);
+                    }
+                    break;
+                case 'terrain':
+                    // Remove other layers
+                    if (map.hasLayer(baseLayers.satellite)) {
+                        map.removeLayer(baseLayers.satellite);
+                    }
+                    if (map.hasLayer(baseLayers.osm)) {
+                        map.removeLayer(baseLayers.osm);
+                    }
+                    // Add terrain layer
+                    if (!map.hasLayer(baseLayers.terrain)) {
+                        baseLayers.terrain.addTo(map);
+                    }
+                    break;
+                case 'ndvi':
+                    showNotification('NDVI overlay activated');
+                    break;
+            }
+        }
+
+        function requestNewImagery() {
+            showNotification('Requesting new imagery update...');
+        }
+
+        function runSpatialAnalysis() {
+            showNotification('Running spatial analysis...');
+        }
+
+  function generateReport() {
+    showNotification('Generating report...');
+    
+    
+    const link = document.createElement('a');
+    link.href = 'MSPO REPORT_14072025.pdf'; 
+    link.download = 'report.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+
+        function trendAnalysis() {
+            showNotification('Performing trend analysis...');
+        }
+
+        function exportData(format) {
+            switch(format) {
+                case 'geojson':
+                    exportGeoJSON();
+                    break;
+                case 'shapefile':
+                    showNotification('Shapefile export functionality would be implemented here');
+                    break;
+                case 'csv':
+                    exportCSV();
+                    break;
+                case 'report':
+                    generateReport();
+                    break;
+            }
+        }
+
+        function exportCSV() {
+            if (geojsonFeatures.length === 0) {
+                showNotification('No data to export');
+                return;
+            }
+            
+            const headers = Object.keys(geojsonFeatures[0].properties);
+            const csvContent = [
+                headers.join(','),
+                ...geojsonFeatures.map(feature => 
+                    headers.map(header => feature.properties[header] || '').join(',')
+                )
+            ].join('\n');
+            
+            const blob = new Blob([csvContent], { type: 'text/csv' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'polygons.csv';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(url);
+        }
+
+        function showNotification(message) {
+            alert(message);
+        }
+
+        function closeInfoForm() {
+            document.getElementById('infoForm').style.display = 'none';
+            // Clear form
+            document.querySelectorAll('#infoForm input').forEach(input => {
+                if (!input.readOnly) {
+                    input.value = '';
+                }
+            });
+            currentLayer = null;
+        }
+
+        function saveInfo() {
+            if (!currentLayer) {
+                showNotification("Draw a polygon first.");
+                return;
+            }
+
+            const get = id => document.getElementById(id).value;
+
+            const properties = {
+                license: get('license'),
+                smallholder: get('name'),
+                state: get('state'),
+                district: get('district'),
+                subdistrict: get('subdistrict'),
+                spoc_name: get('spocName'),
+                spoc_code: get('spocCode'),
+                lot_no: get('lotNo'),
+                certified_area: get('certified'),
+                planted_area: get('planted'),
+                latitude: get('latitude'),
+                longitude: get('longitude'),
+                mspo: get('mspo'),
+                land_title: get('land'),
+                shape_length: get('shapeLength'),
+                shape_area: get('shapeArea')
+            };
+
+            const feature = currentLayer.toGeoJSON();
+            feature.properties = properties;
+            geojsonFeatures.push(feature);
+
+            const popupContent = Object.entries(properties)
+                .filter(([key, val]) => val)
+                .map(([key, val]) => `<b>${key.replace(/_/g, ' ').toUpperCase()}:</b> ${val}`)
+                .join("<br>");
+
+            currentLayer.bindPopup(popupContent).openPopup();
+            
+            closeInfoForm();
+            showNotification('Polygon information saved successfully!');
+        }
+
+        function exportGeoJSON() {
+            if (geojsonFeatures.length === 0) {
+                showNotification('No data to export');
+                return;
+            }
+            
+            const geojson = {
+                type: "FeatureCollection",
+                features: geojsonFeatures
+            };
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(geojson, null, 2));
+            const dlAnchor = document.createElement('a');
+            dlAnchor.setAttribute("href", dataStr);
+            dlAnchor.setAttribute("download", "polygons.geojson");
+            document.body.appendChild(dlAnchor);
+            dlAnchor.click();
+            dlAnchor.remove();
+            showNotification('GeoJSON file exported successfully!');
+        }
+
+        function handleFileImport(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    try {
+                        const geojson = JSON.parse(e.target.result);
+                        L.geoJSON(geojson, {
+                            onEachFeature: function(feature, layer) {
+                                drawnItems.addLayer(layer);
+                                if (feature.properties) {
+                                    const popupContent = Object.entries(feature.properties)
+                                        .filter(([key, val]) => val)
+                                        .map(([key, val]) => `<b>${key.replace(/_/g, ' ').toUpperCase()}:</b> ${val}`)
+                                        .join("<br>");
+                                    layer.bindPopup(popupContent);
+                                }
+                                // Add to geojsonFeatures array
+                                geojsonFeatures.push(feature);
+                            }
+                        });
+                        showNotification('GeoJSON file imported successfully!');
+                    } catch (error) {
+                        showNotification('Error parsing GeoJSON file: ' + error.message);
+                    }
+                };
+                reader.readAsText(file);
+            }
+        }
+    </script>
 </body>
 </html>
